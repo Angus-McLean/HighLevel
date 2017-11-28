@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HighLevel</title>
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  <body>
+    <h1>HighLevel</h1>
+    <input id="username_input" type="text" name="username" placeholder="Enter your name yoo">
+    <div id="textbox" class="">
+      textbox
+    </div>
+    <button id="mybutton" type="button" name="startVoiceRec">Start Voice Recognition</button>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAP4xRtBq_EPDXv_hR2EBqdFZ_FRy89czY",
+      authDomain: "highlevel-258a0.firebaseapp.com",
+      databaseURL: "https://highlevel-258a0.firebaseio.com",
+      projectId: "highlevel-258a0",
+      storageBucket: "highlevel-258a0.appspot.com",
+      messagingSenderId: "185995879487"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <script type="text/javascript" src="/mySweetScripts.js"></script>
+
+</html>

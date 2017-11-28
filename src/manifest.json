@@ -1,0 +1,12 @@
+{
+  "short_name": "HighLevel",
+  "name": "HighLevel",
+  "icons": [
+    {
+      "src": "/downloadedLogo.ico",
+      "type": "image/ico",
+      "sizes": "48x48"
+    }
+  ],
+  "start_url": "index.html"
+}
